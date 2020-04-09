@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    background-color:#062A6A;
+    max-height: 920px;
+    width: 100%;
+}
+.container{
+    position: relative;
+    max-height: 920px;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 40px; 
+    margin-left: 42%;
+}
+
+
+
+.box{
+    background-color: #ffff;
+    height: 800px;
+    width: 35%;
+    border-radius: 20px 20px 20px 0;
+    margin: 40px auto;
+    position: relative;
+}
+
+.bg_img1{
+    position: fixed;
+    top: -62px;
+    left: -8px;
+  }
+  .bg_img2{
+      position: fixed;
+      left: -38px;
+      bottom: -35px;
+     
+  }
+  .bg_img3{
+      position: fixed;
+      top: 5px;
+      right:-63px;
+      
+  }
+  .bg_img4{
+      position: fixed;
+      bottom: -30px;
+      right: -45px;
+  }
+  
+
+h2{ 
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    color: #062A6A;
+}
+
+h4{
+    position: absolute;
+    left: 55px;
+    top: 50px;
+    font-weight: lighter;
+    font-size: 0.9em;
+  
+}
+
+form{
+    margin-left: 40px;
+}
+
+input[type=text]{
+    height: 50px;
+    width: 320px;
+    border:none;
+    background-color:#EDF2F7;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 2px;
+    margin-bottom: 27px;
+}
+
+input[type=email]{
+    height: 50px;
+    width: 320px;
+    border:none;
+    background-color:#EDF2F7;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 2px;
+    margin-bottom: 27px;
+    
+}   
+
+::placeholder{
+    padding-left:10px;
+    color: gray;
+}
+
+
+
+select{
+    height: 50px;
+    width: 320px;
+    border:none;
+    background-color:#EDF2F7;
+    border-radius: 5px 5px 5px 5px;
+    color: gray;
+    margin-top: 2px;
+    margin-bottom: 26px;
+}
+
+input[type=submit]{
+    height: 50px;
+    width: 320px;
+    border:none;
+    background-color:#062A6A;
+    text-align: center;
+    color: #ffff;
+    border-radius: 10px 10px 10px 0;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+
+
+label{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.text{
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+
